@@ -12,6 +12,8 @@
 
 		private $data;
 
+		public function __construct() { }
+
 		public function Paginate($values, $per_page) {
 			
 			$total_values = count($values);
